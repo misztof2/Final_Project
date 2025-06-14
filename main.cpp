@@ -75,7 +75,7 @@ int main() {
     lastScoreText.setFillColor(sf::Color::White);
     lastScoreText.setPosition(WIDTH / 2.f - 150, HEIGHT / 2.f - 20);
 
-    // Start button
+   
     sf::RectangleShape startBtn({400, 80});
     startBtn.setFillColor(sf::Color::Black);
     startBtn.setOutlineColor(sf::Color::White);
@@ -86,7 +86,7 @@ int main() {
     startLabel.setFillColor(sf::Color::White);
     startLabel.setPosition(WIDTH / 2.f - 60, HEIGHT / 2.f - 25);
 
-    // Restart button
+  
     sf::RectangleShape restartBtn({400, 80});
     restartBtn.setFillColor(sf::Color::Black);
     restartBtn.setOutlineColor(sf::Color::White);
